@@ -7,6 +7,7 @@
     "build-client": "webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/server.js",
+    "postinstall": "npm run build-client",
     "deploy": "script/deploy",
     "start-dev": "webpack -w & nodemon server/server.js"
   },
