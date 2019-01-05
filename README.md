@@ -10,4 +10,4 @@ For a cell that is filled, or "alive":
 For a cell that is empty, or "dead":
 -If it gains three neighbors, it becomes "alive."
 
-I initally implemented a game of life in vanilla JavaScript as part of a workshop while studying at the Grace Hopper Academy. In this project, I implemented it using React and Redux. 
+I initally implemented a game of life in vanilla JavaScript as part of a workshop while studying at the Grace Hopper Academy. In this project, I implemented it anew, using React and Redux to manage the changing state. 
